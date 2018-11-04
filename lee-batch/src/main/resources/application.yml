@@ -1,0 +1,21 @@
+# DATASOURCE (DataSourceAutoConfiguration & DataSourceProperties)
+spring:
+  datasource:
+    driverClassName: org.sqlite.JDBC
+    url: jdbc:sqlite:leebatch.db
+    username: leebatch
+    password: leebatch
+# ENDPOINTS (AbstractEndpoint subclasses)
+#endpoints:
+#  enabled: false
+
+
+## hibernate.dialect = org.hibernate.dialect.SQLiteDialect
+#hibernate.dialect: org.hibernate.dialect.SQLiteDialect
+##hibernate:
+##  dialect: org.hibernate.dialect.SQLiteDialect
+
+#spring.datasource.url: jdbc:postgresql://localhost:5432/postgis_test
+#spring.datasource.username: cp
+#spring.datasource.password: pan
+#spring.datasource.driver-class-name: org.postgresql.Driver
